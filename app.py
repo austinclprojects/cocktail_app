@@ -18,7 +18,7 @@ def home():
     <p> ex. /recipes?ingredient=whiskey  /recipes?ingredient=whiskey&title=hot  </p>
     <p></p>
     <p>/search Searches all recipes for several ingredients and returns recipes using all given ingredients.
-    <p> ex. /recipes?ingredient=whiskey+cherry+grenadine</p>
+    <p> ex. /search?ingredient=whiskey+cherry+grenadine</p>
     """
 
 @app.route('/recipes', methods=['GET'])
